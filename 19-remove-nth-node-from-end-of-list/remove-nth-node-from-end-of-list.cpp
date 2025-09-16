@@ -22,7 +22,7 @@ public:
             f=f->next;
             s=s->next;
         }
-        s->next=s->next->next;
+        s->next = s->next->next;
         return a->next;
     }
 };
